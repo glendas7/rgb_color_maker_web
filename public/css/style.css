@@ -1,0 +1,28 @@
+body{
+    background-color: darkgrey;
+}
+
+.my-header{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+}
+.btn{
+    background-color: rgb(23, 235, 48);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.btn:hover {
+    background-color: rgb(255, 174, 0);
+}
+
+.color-block{
+    background-color: rgb(0, 255, 81);
+    display: inline-block;
+    width: 900px;
+    height: 900px;
+}
+
+.rgb-content{
+    color: aliceblue;
+}
