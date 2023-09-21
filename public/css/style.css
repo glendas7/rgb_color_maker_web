@@ -6,12 +6,13 @@ body{
     color:rgb(0, 0, 0);
     font-size: 40px;
 }
+
 .btn{
     background-color: rgb(23, 235, 48);
     color: rgb(0, 0, 0);
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
+
 .btn:hover {
     background-color: rgb(255, 174, 0);
 }
