@@ -6,11 +6,9 @@ import * as Constants from '../model/constants.js'
 
 const db = getFirestore()
 
-
 export async function initFirestoreDocs() {
 	await setDoc(doc(db, Constants.COLLECTION, Constants.COLOR_DATA), Constants.colorData)
 	await setDoc(doc(db, Constants.COLLECTION, Constants.RGB_DATA), Constants.rgbData)
-
 }
 
 export function attachRealtimeListener(collection, document, callback) {
